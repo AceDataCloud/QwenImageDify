@@ -1,0 +1,53 @@
+{
+  "backend_revision": "fa94598267a82545fb1afed6ee26bafd6cbb9ca7",
+  "mcp_revision": "f0eed10abf310824cb4c33d4944c63d3654ac95b",
+  "tools": [
+    {
+      "tool": "qwen_image",
+      "method": "POST",
+      "path": "/qwen-image/images",
+      "parameters": [
+        "model",
+        "prompt",
+        "image_urls",
+        "n",
+        "size",
+        "prompt_extend",
+        "prompt_extend_mode",
+        "enable_thinking",
+        "negative_prompt",
+        "seed",
+        "watermark",
+        "callback_url"
+      ],
+      "aliases": {},
+      "schema_source": "openapi/d0b8a0b6-9471-4c53-aad2-290e68b2ebdb.json"
+    },
+    {
+      "tool": "qwen_image_task_retrieve",
+      "method": "POST",
+      "path": "/qwen-image/tasks",
+      "parameters": [
+        "task_id",
+        "wait_seconds"
+      ],
+      "aliases": {},
+      "schema_source": "openapi/8fa89510-24bf-4e22-83ec-a27a016c10c5.json"
+    },
+    {
+      "tool": "qwen_image_tasks_retrieve_batch",
+      "method": "POST",
+      "path": "/qwen-image/tasks",
+      "parameters": [
+        "ids"
+      ],
+      "aliases": {},
+      "schema_source": "openapi/8fa89510-24bf-4e22-83ec-a27a016c10c5.json"
+    }
+  ],
+  "mcp_scope": "qwen-image",
+  "notes": [
+    "Informational MCP model/action lists are represented by tool dropdowns and README capability tables.",
+    "GPT Image covers image-generation/editing/task capabilities of the broader OpenAI MCP; chat is supplied by ModelProviderDify."
+  ]
+}

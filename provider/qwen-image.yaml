@@ -9,8 +9,8 @@ identity:
   description:
     en_US: Use the Ace Data Cloud Qwen Image APIs in Dify workflows.
     zh_Hans: 在 Dify 工作流中使用 Ace Data Cloud Qwen Image API。
-  icon: icon.jpg
-  icon_dark: icon.jpg
+  icon: icon.png
+  icon_dark: icon.png
   tags:
   - image
 credentials_for_provider:
@@ -30,6 +30,7 @@ credentials_for_provider:
 tools:
 - tools/qwen_image.yaml
 - tools/qwen_image_task_retrieve.yaml
+- tools/qwen_image_tasks_retrieve_batch.yaml
 extra:
   python:
     source: provider/qwen_image.py

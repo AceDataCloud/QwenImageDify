@@ -1,0 +1,45 @@
+{
+  "tested_at": "2026-10-07T08:53:40.321397+00:00",
+  "environment": "Dify CE 1.17.1 / plugin daemon 0.6.10-local",
+  "transport": "official remote-debug; signature verification enabled",
+  "browser_test_run": true,
+  "unit_contract_tests": "26 passed, 1 warning in 0.48s",
+  "marketplace_toolkit_passed": true,
+  "package_sha256": "4dc683db7b1989c8d01fc9ca2a50e5cf9ae9b34a2a8694e029553aae87ab5227",
+  "exact_package_serverless_install_passed": true,
+  "marketplace_install_tested": false,
+  "cloud_tested": false,
+  "cases": [
+    {
+      "case": "Qwen Image Audit Batch",
+      "tool": "qwen_image_tasks_retrieve_batch",
+      "workflow_run_id": "501a2cb1-b1a1-4908-a515-19f90f546820",
+      "workflow_status": "succeeded",
+      "service_status": "succeeded",
+      "task_id": "",
+      "trace_id": "",
+      "media_urls": [
+        "https://platform2.cdn.acedata.cloud/qwen-image/591f92a6-8712-4461-a7bb-3c00aff94a87.png"
+      ],
+      "error": null,
+      "new_submission": false,
+      "media_verification": [
+        {
+          "case": "Qwen Image Audit Batch",
+          "size": 1138511,
+          "sha256": "65581b6adf87f7370669631985323c898c15abce79385a70046c21f30d65a7e0",
+          "width": 1024,
+          "height": 1024,
+          "format": "PNG"
+        }
+      ],
+      "result_fields": [
+        "items"
+      ],
+      "screenshot": "evidence/qwen-image-audit-batch.png",
+      "workflow": "evidence/qwen-image-audit-batch-workflow.json"
+    }
+  ],
+  "primary_blocked": false,
+  "scope_note": "Recorded cases only. Batch regressions reuse earlier paid successful tasks; those media generations are not billed or claimed as new. New paid calls have separate usage reconciliation. Optional untested models/actions are not claimed as passed; original failures and their corrections are preserved."
+}
