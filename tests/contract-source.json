@@ -1,0 +1,17 @@
+{
+  "backend_revision": "7b4bbf0e4f6b83c273baed1d5b8e9bea0f3ece1c",
+  "apis": [
+    {
+      "path": "/qwen-image/images",
+      "spec": "openapi/d0b8a0b6-9471-4c53-aad2-290e68b2ebdb.json"
+    }
+  ],
+  "icon_source": {
+    "repository": "AceDataCloud/Dify",
+    "revision": "eaf0e68cd34cfe4cadece7a9ee34a98aac6b961e^",
+    "path": "plugins/qwen-image/_assets/icon.jpg"
+  },
+  "icon_sha256": {
+    "icon.jpg": "c1b8d35a8faf750d2a6fa7ac93c24f3eebe733df7f7e13902937d8f8ad83eb76"
+  }
+}
