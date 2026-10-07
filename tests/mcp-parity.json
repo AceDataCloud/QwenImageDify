@@ -1,0 +1,77 @@
+{
+  "mcp_revision": "f0eed10abf310824cb4c33d4944c63d3654ac95b",
+  "mapping": [
+    {
+      "mcp_tool": "qwen_image_list_models",
+      "dify_tools": [],
+      "parameters": {},
+      "unresolved": [],
+      "note": "Model/action selectors and the API reference; informational guidance does not submit a request."
+    },
+    {
+      "mcp_tool": "qwen_image_get_task",
+      "dify_tools": [
+        "qwen_image_task_retrieve"
+      ],
+      "parameters": {
+        "task_id": "task_id"
+      },
+      "unresolved": [],
+      "note": "Set action=retrieve"
+    },
+    {
+      "mcp_tool": "qwen_image_get_tasks_batch",
+      "dify_tools": [
+        "qwen_image_tasks_retrieve_batch"
+      ],
+      "parameters": {
+        "task_ids": "ids"
+      },
+      "unresolved": [],
+      "note": "Set action=retrieve_batch"
+    },
+    {
+      "mcp_tool": "qwen_image_generate",
+      "dify_tools": [
+        "qwen_image"
+      ],
+      "parameters": {
+        "prompt": "prompt",
+        "model": "model",
+        "n": "n",
+        "size": "size",
+        "prompt_extend": "prompt_extend",
+        "prompt_extend_mode": "prompt_extend_mode",
+        "enable_thinking": "enable_thinking",
+        "negative_prompt": "negative_prompt",
+        "seed": "seed",
+        "watermark": "watermark",
+        "callback_url": "callback_url"
+      },
+      "unresolved": [],
+      "note": "Set image_urls for editing."
+    },
+    {
+      "mcp_tool": "qwen_image_edit",
+      "dify_tools": [
+        "qwen_image"
+      ],
+      "parameters": {
+        "prompt": "prompt",
+        "image_urls": "image_urls",
+        "model": "model",
+        "n": "n",
+        "size": "size",
+        "prompt_extend": "prompt_extend",
+        "prompt_extend_mode": "prompt_extend_mode",
+        "enable_thinking": "enable_thinking",
+        "negative_prompt": "negative_prompt",
+        "seed": "seed",
+        "watermark": "watermark",
+        "callback_url": "callback_url"
+      },
+      "unresolved": [],
+      "note": "Set image_urls for editing."
+    }
+  ]
+}
