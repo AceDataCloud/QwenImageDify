@@ -6,12 +6,7 @@ app:
   mode: workflow
   name: Qwen Image Step-by-step Tutorial
   use_icon_as_answer_icon: false
-dependencies:
-- current_identifier: null
-  type: marketplace
-  value:
-    marketplace_plugin_unique_identifier: acedatacloud/qwen-image:0.0.1@9918920ca110b04e921df328100a5edb23483e8dba1e42020118ad527921f5da
-    version: null
+dependencies: []
 kind: app
 version: 0.7.0
 workflow:
@@ -86,7 +81,6 @@ workflow:
       zIndex: 0
     - data:
         desc: ''
-        plugin_unique_identifier: acedatacloud/qwen-image:0.0.1@9918920ca110b04e921df328100a5edb23483e8dba1e42020118ad527921f5da
         provider_id: acedatacloud/qwen-image/qwen-image
         provider_name: acedatacloud/qwen-image/qwen-image
         provider_type: builtin
@@ -134,7 +128,6 @@ workflow:
       zIndex: 0
     - data:
         desc: ''
-        plugin_unique_identifier: acedatacloud/qwen-image:0.0.1@9918920ca110b04e921df328100a5edb23483e8dba1e42020118ad527921f5da
         provider_id: acedatacloud/qwen-image/qwen-image
         provider_name: acedatacloud/qwen-image/qwen-image
         provider_type: builtin
